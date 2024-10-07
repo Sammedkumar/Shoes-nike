@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+}
+.left {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(203, 55, 75);
+    position: relative;
+
+}
+.right {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(187, 181, 181);
+    position: relative;
+}
+img {
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 10%;
+    left: -30%; 
+}
+.left .top {
+    position: absolute;
+    top: 10%;
+    padding: 30px;
+}
+.top h1 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.top h1 span {
+
+    font-weight: 60;
+}
+.top h3 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.top p {
+    color: white;
+    padding: 10px 0px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.top button {
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 170px;
+    font-size: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.left .bottom {
+    height: 100px;
+    width: 90%;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 15px;
+}
+.bottom h2 {
+    color: red;
+}
+.bottom p {
+    font-weight:100;
+    font-size:13px;
+    margin: 10px 0px;
+}
+.right .text {
+    position: absolute;
+    top: 15% ;
+    left: 40%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.text h1{
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+}
+.text h1 span{
+    color: black;
+    font-weight: 100;
+}
+.text h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+.text h3 span{
+    font-weight: 900;
+}
+.text  p{
+    font-size: 14px;
+    margin: 15px 0px;
+    line-height: 20px;
+    font-weight: 100;
+}
+.bttn #first {
+    height: 40px;
+    width: 240px;
+    margin-right: 20px;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bttn #second {
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.text h4 {
+    font-weight: 900;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+
